@@ -1,0 +1,35 @@
+.home__bg {
+  background-image: url(https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
+  height: 80vh;
+  background-position: center;
+  padding: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.home-message-icon {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+h1 {
+  overflow: hidden; /* Hide the overflow text */
+  white-space: nowrap; /* Prevent the text from wrapping */
+  border-right: 0.15em solid orange; /* Create the blinking cursor */
+  font-size: 2em;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 1.5s steps(30) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
